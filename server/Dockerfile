@@ -13,4 +13,5 @@ ENV NODE_ENV=production
 EXPOSE $PORT
 WORKDIR /www
 COPY --from=build --chown=root:root /www /www
+EXPOSE 9095
 CMD ["node", "index.js"]
