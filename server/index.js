@@ -150,6 +150,6 @@ app.get("/totals", async (req, res) => {
   });
 });
 
-server.listen(3001, () => {
-  console.log("Server listening at port 3001");
+server.listen(9095, () => {
+  console.log("Server listening at port 9095");
 });
